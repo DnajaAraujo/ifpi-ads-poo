@@ -18,6 +18,7 @@
 - Sem o break todos os casos são testados.
 
 # 5)
+``` Java
 // Código da questão
 public class Exemplo {
     public static void main(String[] args) {
@@ -35,4 +36,5 @@ public class Exemplo {
         int soma = a +b;
         System.out.println("Soma: " + soma);
     }
-}
+} 
+```
