@@ -43,7 +43,7 @@ public class Exemplo {
 ``` Java
 public class Saudacao {
     public static void main(String[] args) {
-        System.out.println("Bem Vindo!");
+        System.out.println("Bom Dia!");
     }
 }
 ```
@@ -75,7 +75,7 @@ public class TestaSaudacao {
 ```
 
 # 9)
-- O modelo abordado na questão 8 é o mais estruturado, mais voltado a Orientação a Objeto e que proporciona maior portabilidade e modularização. Também é o mais burocrático pois há a necessidade de criar mais arquivos, e 'digitar mais'.
+- O modelo abordado na questão 8 é o mais estruturado, mais voltado a Orientação a Objeto e que proporciona maior portabilidade e modularização. Também é o mais burocrático, pois há a necessidade de criar mais arquivos e linhas de código.
 
 # 10)
 - Código na pasta.
