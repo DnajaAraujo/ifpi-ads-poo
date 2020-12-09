@@ -38,3 +38,59 @@ public class Exemplo {
     }
 } 
 ```
+
+# 6)
+``` Java
+public class Saudacao {
+    public static void main(String[] args) {
+        System.out.println("Bem Vindo!");
+    }
+}
+```
+
+# 7)
+``` Java
+public class Saudacao {
+    String texto;
+    String destinatario;
+
+    // Método
+    String obterSaudacao() {
+        System.out.println(texto + " " + destinatario);
+    }
+}
+```
+
+# 8)
+``` Java
+public class TestaSaudacao {
+    public static void main(String[] args) {
+        Saudacao s = new Saudacao();
+        s.texto = "Bom dia";
+        s.destinatario = "Joao";
+
+        System.out.println(s.obterSaudacao());
+    }    
+}
+```
+
+# 9)
+- O modelo abordado na questão 8 é o mais estruturado, mais voltado a Orientação a Objeto e que proporciona maior portabilidade e modularização. Também é o mais burocrático pois há a necessidade de criar mais arquivos, e 'digitar mais'.
+
+# 10)
+- Código na pasta.
+
+# 11)
+- Código na pasta.
+
+# 12)
+- Código na pasta.
+
+# 13)
+- Código na pasta.
+
+# 14)
+- Código na pasta.
+
+# 15)
+- Código na pasta.
