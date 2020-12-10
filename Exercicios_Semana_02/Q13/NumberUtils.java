@@ -10,7 +10,8 @@ public class NumberUtils {
     public boolean isOdd() {
         if (num % 2 == 0) {
             return true;
-        } else {
+        } 
+        else {
             return false;
         }
     }
