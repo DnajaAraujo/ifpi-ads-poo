@@ -10,7 +10,7 @@
 - O resultado será 0, pois o Java atribui o valor 0 automaticamente para atributos inteiros não inicializados.
 
 # Q4)
-- Código da Questão:
+- Código da questão:
 ``` Java
 	void x(double valor) {
 		valor = valor + valor;
