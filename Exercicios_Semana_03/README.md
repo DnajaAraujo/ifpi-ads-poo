@@ -11,21 +11,19 @@
 
 # Q4)
 - Código da Questão:
-''' Java
-
+``` Java
 	void x(double valor) {
 		valor = valor + valor;
 	}
 
-'''
+```
 - Dessa forma como está escrito o método fica confuso de se ler, pois o parâmetro e o atributo tem o mesmo nome, mas esse problema pode ser resolvido da seguinte forma:
-''' Java
-
+``` Java
 	void x(double valor) {
 		this.valor = valor + valor;
 	}
-
-'''
+	
+```
 - Usando o *this* fica mais fácil reconhecer que o primeiro valor se refere ao atributo da classe e que o segundo se refere ao parâmetro. 
 
 # Q5)
