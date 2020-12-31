@@ -5,7 +5,7 @@
 
 # Q2)
 - Ocorre erro de execução pois é preciso instanciar um objeto do tipo *Conta* antes de acrescentá-lo ao *array*.
-- Solução: 
+- Uma possível solução: 
 ```Java
 	Conta[] contas = new Conta[5];
 	Conta c1 = new Conta("1", 10);
