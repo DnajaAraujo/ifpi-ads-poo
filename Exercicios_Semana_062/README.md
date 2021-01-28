@@ -35,13 +35,13 @@
 - 
 
 # Q12)
-- É mostrado o resultado *metodo 1, classe B*.
+- É mostrado o resultado *"metodo 1, classe B"*.
 
 # Q13)
-- Ocorre erro pois o método *metodo2()* não foi definido na classe *A*.
+- Ocorre erro pois o método *metodo2* não foi definido na classe *A*.
 
 # Q14)
-- É mostrado o resultado *metodo 1, classe A*.
+- É mostrado o resultado *"metodo 1, classe A"*.
 
 # Q15)
 ```java
@@ -64,7 +64,7 @@
 ```
 
 # Q16)
-- Pois para que ocorra a sobrecarga é necessário ter atributos diferentes, o que não ocorre nesse programa.
+- Pois para que ocorra a sobrecarga é necessário ter parâmetros diferentes, o que não ocorre nesse programa. 
 
 # Q17)
-- O problema são os atributos iguais. Uma maneira de resolver esse problema é a mudança do tipo dos parâmetros de *int* por *double*.
+- O problema são os parâmetros iguais. Uma maneira de resolver esse problema é a através mudança do tipo dos parâmetros de *int* por *double* no segundo método *soma*.
