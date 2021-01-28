@@ -64,7 +64,7 @@
 ```
 
 # Q16)
-- 
+- Pois para que ocorra a sobrecarga é necessário ter atributos diferentes, o que não ocorre nesse programa.
 
 # Q17)
-- 
+- O problema são os atributos iguais. Uma maneira de resolver esse problema é a mudança do tipo dos parâmetros de *int* por *double*.
