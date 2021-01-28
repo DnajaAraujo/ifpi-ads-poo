@@ -32,7 +32,7 @@
 - Código na pasta Q10.
 
 # Q11)
-- 
+- V V F V V.
 
 # Q12)
 - É mostrado o resultado *"metodo 1, classe B"*.
