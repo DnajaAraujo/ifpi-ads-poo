@@ -5,8 +5,6 @@
 - Sim, pois ele utiliza os métodos *sacar* e *depositar*, os quais já estão "validados". Sim, a solução ficou mais robusta pois, além de tornar o código à prova de erros, tornou o código mais legível e simples.   
 
 # Q9)
-- 
--
 - Os métodos serão alterados de forma a terem que colocar na assinatura do método a palavra reservada *throws* e o nome do tipo de exceção. Exemplo:
 ```java
 	public void metodo(int num) throws AplicacaoException {
