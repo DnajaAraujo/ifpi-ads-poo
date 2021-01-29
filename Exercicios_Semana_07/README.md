@@ -30,31 +30,32 @@
 	- Pontos falhos de retornar um código de erro: temos que testar o valor de retorno para saber o que houve; é considerado uma má prática; o valor retornado não é intuitivo e carece de documentação para o endendimento.
 
 - b) Porque através delas podemos tratar os erros que venham a surgir no programa, o que torna o código mais confiável.
-- c) Sim.
-- Exemplo:
+- c) 
+	- Sim.
+	- Exemplo:
 ```java
-	public void debitar(String numero, double valor) {
-		Conta c;
-		c = consultar(numero);
-			if (c != null) {
-				c.sacar(valor);
-				System.out.println("Operação realizada com sucesso!");
-			}
-			else {
-				System.out.println("Conta inexistente!");
+		public void debitar(String numero, double valor) {
+			Conta c;
+			c = consultar(numero);
+				if (c != null) {
+					c.sacar(valor);
+					System.out.println("Operação realizada com sucesso!");
+				}
+				else {
+					System.out.println("Conta inexistente!");
+				}
 		}
-	}
 ```
-- Antes
+	- Antes
 
 ```java
-	public void debitar(String numero, double valor) {
-		Conta c;
-		c = consultar(numero);
-		if (c == null) {
-			throw new RuntimeException("Conta inexistente!");
+		public void debitar(String numero, double valor) {
+			Conta c;
+			c = consultar(numero);
+			if (c == null) {
+				throw new RuntimeException("Conta inexistente!");
+			}
+			c.sacar(valor);
 		}
-		c.sacar(valor);
-	}
 ```
-- Depois
+	- Depois
