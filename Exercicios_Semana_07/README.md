@@ -27,7 +27,7 @@
 - a) 
 	- Ponto falho de desconsiderar a operação: ficamos na incerteza do sucesso ou não da operação;
 	- Ponto falho de exibir mensagem de erro: ficamos atrelados à interface (gráfica ou texto);
-	- Pontos falhos de retornar um código de erro: temos que testar o valor de retorno para saber o que houve; é considerado uma má prática; o valor retornado não é intuitivo e carece de documentação para o endendimento.
+	- Pontos falhos de retornar um código de erro: temos que testar o valor de retorno para saber o que houve; é considerado uma má prática; o valor retornado não é intuitivo e carece de documentação para o entendimento.
 
 - b) Porque através delas podemos tratar os erros que venham a surgir no programa, o que torna o código mais confiável.
 - c) 
