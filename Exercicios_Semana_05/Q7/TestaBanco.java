@@ -18,19 +18,19 @@ public class TestaBanco {
         
         b.inserir(c1);
         b.inserir(c2);
-		b.inserir(c3);
+	b.inserir(c3);
 
-		b.creditar("1", 100);
-		b.creditar("3", 500);
-		b.creditar("4", 200);
-		b.creditar("5", 100);
+	b.creditar("1", 100);
+	b.creditar("3", 500);
+	b.creditar("4", 200);
+	b.creditar("5", 100);
 
-		b.transferir("1", "4", 50);
-		b.transferir("2", "3", 100);
-		b.transferir("1", "5", 50);
+	b.transferir("1", "4", 50);
+	b.transferir("2", "3", 100);
+	b.transferir("1", "5", 50);
 
-		System.out.println(b.contarContasCadastradas());
-		System.out.println(b.contarDinheiroTotal());
-		System.out.println(b.calcularMediaConta());
+	System.out.println(b.contarContasCadastradas());
+	System.out.println(b.contarDinheiroTotal());
+	System.out.println(b.calcularMediaConta());
     }
 }
